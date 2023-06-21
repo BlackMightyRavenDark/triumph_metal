@@ -1,0 +1,43 @@
+.catalog > h2 {
+    margin: 200px 0 68px 0;
+}
+
+.catalog > nav {
+    margin-bottom: 200px;
+}
+
+.catalog__category-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 0 180px;
+}
+
+.catalog__category-button {
+    width: 250px;
+    height: 80px;
+    font-size: 30px;
+    border: none;
+    background: none;
+}
+
+.catalog__category-button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: deepskyblue;
+}
+
+.catalog > p {
+    font-size: 24px;
+    text-align: center;
+}
+
+.catalog__button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.catalog__button-wrapper > button {
+    margin: 70px 0 0 0;
+}
