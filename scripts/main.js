@@ -47,13 +47,13 @@ async function loadCategory(categoryName) {
                 nodeImageContaner.style.position = "relative";
 
                 const nodeImageDecor1 = document.createElement("img");
-                nodeImageDecor1.setAttribute("src", "../images/decor_tr.png");
+                nodeImageDecor1.setAttribute("src", "images/decor_tr.png");
                 nodeImageDecor1.style.position = "absolute";
                 nodeImageDecor1.style.top = "-30px";
                 nodeImageDecor1.style.right = "-30px";
 
                 const nodeImageDecor2 = document.createElement("img");
-                nodeImageDecor2.setAttribute("src", "../images/decor_bl.png");
+                nodeImageDecor2.setAttribute("src", "images/decor_bl.png");
                 nodeImageDecor2.style.position = "absolute";
                 nodeImageDecor2.style.bottom = "-10px";
                 nodeImageDecor2.style.left = "-30px";
